@@ -41,9 +41,7 @@ app.post('/goty/:id', async (req, res) => {
 		res.json({
 			ok: true,
 			msj: "Thanks for your vote to " + gameBefore?.name
-		})
-
-	
+		});
 	}
 })
 
